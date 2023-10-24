@@ -1,0 +1,41 @@
+h2 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.box-border {
+    height: 204px;
+    width: 204px;
+    border: 2px dotted #000;
+    margin: auto;
+    position: relative;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    border: 2px solid black;
+}
+
+.box1 {
+    background: lightblue;
+    left: 0;
+}
+
+.box2 {
+    background: lightcoral;
+    right: 0;
+}
+
+.box3 {
+    background: lightcyan;
+    left: 0;
+    bottom: 0;
+}
+
+.box4 {
+    background: lightgoldenrodyellow;
+    right: 0;
+    bottom: 0;
+}

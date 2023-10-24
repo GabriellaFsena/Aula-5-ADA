@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    display: flex;
+}
+
+.box1 {
+    height: 100px;
+    width: 100px;
+    background: lightblue;
+    border: 1px solid black;
+
+}
+
+.box2 {
+    height: 100px;
+    width: 100px;
+    background: lightcoral;
+    border: 1px solid black;
+}
+
+.box3 {
+    height: 100px;
+    width: 100px;
+    background: lightcyan;
+    border: 1px solid black;
+}
+
+.box4 {
+    height: 100px;
+    width: 100px;
+    background: lightgoldenrodyellow;
+    border: 1px solid black;
+}

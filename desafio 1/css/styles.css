@@ -1,0 +1,49 @@
+:root {
+    --fonte-padrao: 'Acme', sans-serif;
+    --cor-titulo: rgb(135, 41, 102);
+    --cor-quadrado:  #000000; 
+    --cor-borda:  #000000;  
+}
+
+body {
+    font-family: var(--fonte-padrao);
+}
+
+.titulo {
+    text-align: center;
+    color: var(--cor-titulo);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.chessboard {
+    border: 4px solid #000000;
+    display: inline-block;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    width: 70px;
+    height: 70px;
+    border: 1px solid var(--cor-borda);
+}
+
+tr:nth-child(odd) td:nth-child(odd) {
+    background-color:var(--cor-quadrado);
+}
+
+tr:nth-child(even) td:nth-child(even) {
+    background-color: var(--cor-quadrado);
+}
